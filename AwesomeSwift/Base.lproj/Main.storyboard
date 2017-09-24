@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AwesomeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIVE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVH-JK-f06">
+                                <rect key="frame" x="155.5" y="25" width="63.5" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Let's ask an independent expert for his opinion on Swift:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcr-L0-d1t">
+                                <rect key="frame" x="15" y="182" width="345" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAw-Ox-vho">
+                                <rect key="frame" x="15" y="238" width="345" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JY7-TZ-IPc">
+                                <rect key="frame" x="135.5" y="38" width="10" height="10"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="fpB-PZ-E5J"/>
+                                    <constraint firstAttribute="height" constant="10" id="stF-KL-jXv"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WWDC 20XX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KuY-RW-7wo">
+                                <rect key="frame" x="63" y="84" width="249" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rcr-L0-d1t" secondAttribute="trailing" constant="15" id="2nH-eC-FSw"/>
+                            <constraint firstItem="KuY-RW-7wo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5ik-Ta-ZeC"/>
+                            <constraint firstItem="nVH-JK-f06" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="25" id="GDq-8H-yW5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DAw-Ox-vho" secondAttribute="trailing" constant="15" id="J5g-hF-bdb"/>
+                            <constraint firstItem="nVH-JK-f06" firstAttribute="leading" secondItem="JY7-TZ-IPc" secondAttribute="trailing" constant="10" id="QQl-3E-iMm"/>
+                            <constraint firstItem="KuY-RW-7wo" firstAttribute="top" secondItem="nVH-JK-f06" secondAttribute="bottom" constant="23" id="ZIm-vY-hAf"/>
+                            <constraint firstItem="Rcr-L0-d1t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="bT2-W8-I9n"/>
+                            <constraint firstItem="DAw-Ox-vho" firstAttribute="top" secondItem="Rcr-L0-d1t" secondAttribute="bottom" constant="15" id="d2e-P7-RHt"/>
+                            <constraint firstItem="nVH-JK-f06" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eht-X0-YFu"/>
+                            <constraint firstItem="JY7-TZ-IPc" firstAttribute="centerY" secondItem="nVH-JK-f06" secondAttribute="centerY" id="lny-yL-KyT"/>
+                            <constraint firstItem="DAw-Ox-vho" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="o81-fp-Iji"/>
+                            <constraint firstItem="Rcr-L0-d1t" firstAttribute="top" secondItem="KuY-RW-7wo" secondAttribute="bottom" constant="50" id="tM7-cV-Y6a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="opinionLabel" destination="DAw-Ox-vho" id="5L9-7r-9T4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
